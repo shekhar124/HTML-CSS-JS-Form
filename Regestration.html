@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="=width=divice-width"
+<head> <title>Regestration form</title>
+<link rel="stylesheet" href="Sryle.css">
+</head>
+
+<body>
+    <form>
+        <header class="heaerContent">
+            <h1>Regestration form </h1>
+        </header>
+        <div>
+            <label for="text">Text input type name:</label>
+           <input type="text" id="text" name="text">
+           <error-output id="name-error  " class="text-error" for="text"></error-output>
+        </div>
+        <div>
+            <label for="paswd">Type password</label>
+            <input type="text"id="text" name="text">
+        </div>
+        <div>
+            <label for="email">Type email</label>
+            <input type="email"id="email" name="email">
+        </div>
+        <div>
+            <label for="url">Type url</label>
+            <input type="url"id="url" name="url">
+        </div>
+        <div>
+            <label for="number">Type number</label>
+            <input type="number"id="number" name="number">
+        </div>
+        <div>
+            <label for="tel">Type tel</label>
+            <input type="tel"id="tel" name="tel">
+        </div>
+        <div>
+            <label for="search">Type search</label>
+            <input type="Search"id="search" name="search">
+        </div>
+        <div class="time and date">
+            <label for="party" >Choose date and time</label>
+            <input type="datetime-local" id="party" name="bdy">
+            <samp class="validity"></samp>
+        </div>
+        <div>
+            <label for="salary">chose your salary</label>
+            <input type="range" name="salary" min="50000"
+            max="80000" step="100"value="60000">
+            <output class="=salary-output" for="salary">60000</output>
+        </div>
+        <div>
+            <button>submit</button>
+        </div>
+
+    </form>
+    <script src="Regestration.js">
+        
+    </script>
+    
+</body>
+</html>

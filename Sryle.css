@@ -1,0 +1,49 @@
+html,input{
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+body{
+    width: 100%;
+    max-width: 500px;
+    margin: 0px;
+    padding: 2em;
+}
+form{
+    
+    margin-top:  50px; 
+}
+.heaerContent{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: lightblue;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+div{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label,input,button{
+    font-size: 16px;
+    line-height: 1;
+}
+label{
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+input {
+    flex:auto
+}
+button{
+    width: 70%;
+    margin: 0 auto;
+}
+error-output{
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
